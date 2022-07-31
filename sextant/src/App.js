@@ -4,10 +4,10 @@ import Exhibit from './component.js/Exhibit';
 
 function App() {
   return (
-    <div className="App">
-      <Banner />
-      <Exhibit />
-    </div>
+    <>
+    <Banner />
+    <Exhibit />
+    </>
   );
 }
 

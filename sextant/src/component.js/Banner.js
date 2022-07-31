@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Banner = () => {
-  return (
-    <div className='banner'>
+export default class Banner extends Component {
+  state = {
+    title: 'Sextant'
+  }
+
+  render() {
+    return (
+      <div className='banner'>
         <h1>
-            Sextant
+          {this.state.title}
         </h1>
-    </div>
-  )
+      </div>
+    )
+  }
 }
-
-export default Banner

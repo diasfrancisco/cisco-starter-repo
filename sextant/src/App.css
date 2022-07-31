@@ -2,12 +2,13 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .banner{
   width: 100%;
   height: 100%;
-  background-color: black;
+  padding: 10px 20px;
   text-align: left;
   color: red;
   font-family: 'Courier New', Courier, monospace;
@@ -15,7 +16,17 @@
 }
 
 .container{
-  background-color: black;
   color: red;
   text-align: center;
+}
+
+#displayip{
+  color: green;
+}
+
+.typebutton{
+  color: red;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-color: red;
 }
